@@ -2,7 +2,7 @@
 
 Hello, and Welcome to **DMIT-0000** (_COURSE_NAME_)!!
 
-My name is ***Dan Gilleland*** and I will be your instructor for this course. All our lecture times will be done through remote classrooms using Microsoft Teams. Our first class is set for **_TIME_** on **_DATE_*, and there are a few key things to keep in mind.
+My name is ***Dan Gilleland*** and I will be your instructor for this course. All our lecture times will be done through remote classrooms using Microsoft Teams. Our first class is set for **_TIME_** on **_DATE_**, and there are a few key things to keep in mind.
 
 First, be sure to **click the RSVP link** in this (and future) emails to get access to the classes.
 
