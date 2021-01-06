@@ -29,5 +29,14 @@
 
 ## W01D2 
 
+> Follow my [First Class](../Common/ReadMe.md) outline
+
+- [ ] GitHub
+  - [ ] Setup Accounts
+  - [ ] Edit User Profile/Name
+  - [ ] 
+
 ---
+
+## W01D3
 
