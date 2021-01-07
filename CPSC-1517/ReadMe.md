@@ -110,6 +110,9 @@ Expand with other concepts, such as
 **Run the code demos** in the OOP Review and **read the source code**.
 
 ---
+
+![10 Bucks](./images/2020-10-26_11-29-18.png)
+
 ---
 
 ## W02D1
