@@ -29,5 +29,391 @@
 
 ## W01D2 
 
+> - [ ] A03 (T/Th/F)
+> - [x] A04 (M/W/F)
+
+- [Syllabus/Intro](../Common/Syllabus.md)
+  - My Intro
+  - Mark Breakdown
+  - Software
+- new Console App - "Hello World"
+- Use Source Control in VS 2019 (push to GitHub)
+
+#### "Hello World"
+
+Start off with a classic Hello World app in .NET 4.8 (`HelloWorld.csproj` and "**Hello to the World**" solution).
+
+```csharp
+Console.WriteLine("Hello World");
+```
+
+Expand with other concepts, such as
+
+- Static methods
+  ```csharp
+  WriteLine("Hello World"); // using static System.Console;
+  ```
+- Where is your .exe?
+- Running the .exe in PowerShell (terminal)
+- What is the `string[] args` used for? (plus **string interpolation**)
+  ```csharp
+  if (args != null && args.Length > 0) // I have one or more strings supplied to my program
+  {
+      foreach (string word in args)
+          WriteLine($"Hello {word}"); // String Interpolation - $"{expression}"
+  }
+  else
+  {
+      WriteLine("Hello World");
+  }
+  ```
+- Help Text with [**verbatim string literals**](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#regular-and-verbatim-string-literals)
+  ```csharp
+  // Display some "Help" information
+  WriteLine(@"Hello World
+  ===== =====
+  
+  Usage: .\HelloWorld [names]
+  
+  where
+       [names] is a space-separated list of names");
+  ```
+- Add some ***bling***
+  ```csharp
+  // Display some "Help" information
+  ForegroundColor = ConsoleColor.Green; // Change the foreground color of the Console
+  ```
+
+
 ---
+
+## W01D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+- Accept **Workbook** assignment
+- Learn/Practice writing **Markdown**
+- Run **Installer**
+  - Individual Components: (see Workbook)
+
+  | Launch | Min Version *16.8.3* |
+  |--------|-------------|
+  | ![Launch Installer](./images/vs-installer.png)|  ![Min Version](./images/vs-min-version.png) |
+
+- Demo a .NET 5 (Core) version of "Hello World"
+- Begin OOP Review
+- [Assignment](#homework-w02d1) 
+
+### **Homework-W02D1**
+
+**Run the code demos** in the OOP Review and **read the source code**.
+
+---
+---
+
+## W02D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W02D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W02D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W03D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W03D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W03D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W04D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W04D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W04D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W05D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W05D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W05D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W06D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W06D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W06D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W07D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W07D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W07D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W08D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W08D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W08D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W09D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W09D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W09D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W10D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W10D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W10D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W11D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W11D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W11D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W12D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W12D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W12D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W13D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W13D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W13D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W14D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W14D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W14D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+---
+
+## W15D1
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W15D2
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
+
+---
+
+## W15D3
+
+> - [ ] A03 (T/Th/F)
+> - [ ] A04 (M/W/F)
 
