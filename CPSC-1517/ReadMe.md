@@ -93,7 +93,6 @@ Expand with other concepts, such as
 > - [ ] A04 (M/W/F)
 
 - Accept **Workbook** assignment
-- Learn/Practice writing **Markdown**
 - Run **Installer**
   - Individual Components: (see Workbook)
 
@@ -101,13 +100,7 @@ Expand with other concepts, such as
   |--------|-------------|
   | ![Launch Installer](./images/vs-installer.png)|  ![Min Version](./images/vs-min-version.png) |
 
-- Demo a .NET 5 (Core) version of "Hello World"
-- Begin OOP Review
-- [Assignment](#homework-w02d1) 
-
-### **Homework-W02D1**
-
-**Run the code demos** in the OOP Review and **read the source code**.
+- Learn/Practice writing **Markdown**
 
 ---
 
@@ -119,6 +112,15 @@ Expand with other concepts, such as
 
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
+
+- Demo a .NET 5 (Core) version of "Hello World"
+- Begin OOP Review
+- [Assignment](#homework-w02d1) 
+
+### **Homework-W02D1**
+
+**Run the code demos** in the OOP Review and **read the source code**.
+
 
 ---
 
