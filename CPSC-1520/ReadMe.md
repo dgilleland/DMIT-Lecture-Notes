@@ -31,15 +31,6 @@
 
 > Follow my [First Class](../Common/ReadMe.md) outline
 
-- [ ] GitHub
-  - [ ] Setup Accounts
-  - [ ] Edit User Profile/Name
-  - [ ] 
-
----
-
-## W01D3
-
 - **Intro to the Course**
   - [ ] Introduce the course outline, syllabus, and planning calendar
   - [ ] Outline classroom etiquette and what is expected from students regarding attendance, homework, and effort
@@ -54,8 +45,26 @@
   - [ ] Basics of MarkDown
     - Direct students' attention to the docs and [My Notes](../../docs/mynotes/ReadMe.md) portion of the workbook
     - Edit the [**ReadMe.md**](../../ReadMe.md) file at the root of your workbook
+
+---
+
+## W01D3
+
+- **Handle Late Students**
+  - [ ] Setup GitHub accounts & software installation & workbook assignment
+- **Introduction to git and GitHub**
+  - [ ] Basics of MarkDown
     - Create a [ReadMe.md](./demos/ReadMe.md) file and add an image (screenshot of [QR Code for their name](https://www.the-qrcode-generator.com/))
   - [ ] Committing Changes and Synchronizing (pull/push) with GitHub
+
+---
+---
+
+## W02D1
+
+<!-- Demo the effect of a pull and the need for synchronizing by adding a commit to each student's repository  -->
+<!-- JavaScript editing in the Browser + First assignment -->
+
 - **Basics of JavaScript Execution**
   - [ ] [JavaScript Spec (ES5 vs ES6 vs ES7)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) and [Implementations (Chakra for *Opera* vs Spider Monkey for *FireFox* vs V8 for *Chrome*)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources#Implementations)
     - JavaScript is
@@ -66,15 +75,9 @@
     - Interpreted vs compiled programming languages
       - Compiled programs tend to run faster, but are specific to the OS/hardware it is run on
       - Interpreted languages are a bit slower, but don't have to worry about the OS/hardware, because it runs in a "context" (the browser) that interprets the code
-
-## Day 3
-
-<!-- Demo the effect of a pull and the need for synchronizing by adding a commit to each student's repository  -->
-<!-- JavaScript editing in the Browser + First assignment -->
-
 - **Review/Questions**
   - [ ] Answer student questions and review from previous class
-- **Basic Console Access**
+- [**Basic Console Access**](#basic-console-access)
   - [ ] How to open the developer tools console
   - [ ] How to execute simple JS statements in the console
 - **Basic DOM access**
@@ -85,3 +88,23 @@
   - [ ] Simple types (strings and numbers)
 - **In-Class Assessment**
   - [ ] Have students work through the console exercise (not for marks) and in-class assessment (for marks), which **must be completed by the end of class** <!--(only release the in-class assessment in class on this day via GitHub Classroom Assignment; DO NOT release through Moodle).-->
+
+#### **Basic Console Access**
+
+In the browser, the **document** object reference provides several methods for selecting elements in the
+DOM:
+
+- `document.getElementById(selector)` – returns a single matched element
+- `document.getElementsByTagName(selector)` – returns a list of matched elements
+- `document.getElementsByClassName(selector)` – returns a list of matched elements
+- `document.querySelector(selector)` – returns the first matched element
+- `document.querySelectorAll(selector)` – returns a list of matched elements
+
+In this exercise we will only be looking at **getElementById** and **querySelector** (the other methods will be
+explored later). Each of these functions returns the matched element (if any) from the DOM.
+
+```javascript
+document.getElementById('copyright-owner');
+document.querySelector('h1');
+document.querySelector('nav.top-nav');
+```
