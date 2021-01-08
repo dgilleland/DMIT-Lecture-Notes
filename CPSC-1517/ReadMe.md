@@ -29,7 +29,7 @@
 
 ## W01D2 
 
-> - [ ] A03 (T/Th/F)
+> - [x] A03 (T/Th/F)
 > - [x] A04 (M/W/F)
 
 - [Syllabus/Intro](../Common/Syllabus.md)
