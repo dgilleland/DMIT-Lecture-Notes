@@ -121,13 +121,13 @@ document.querySelector('nav.top-nav');
 
 Try it yourself by looking for the element with an ID of `'byline'`. *(**Hint:** `document.getElementById('byline')`)*
 
-Notice that each of the searching functions used so far give us a single element. Here's one that gives us a whole bunch of elements!
+Notice that each of the searching functions used so far give us a single element. Here's one that gives us a whole bunch of elements! Compare that with what you get when just using `document.querySelector('p')`.
 
 ```javascript
 document.querySelectorAll('p')
 ```
 
-Of course, if you want to go ***wilde***, you could try this:
+Of course, if you want to go ***wild***, you could try this:
 
 ```javascript
 document.querySelectorAll('p').forEach(function (e) { console.log(e); })
