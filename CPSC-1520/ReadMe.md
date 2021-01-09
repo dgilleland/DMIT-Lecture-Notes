@@ -139,3 +139,41 @@ Of course, if you want to go ***wild***, you could try this:
 ```javascript
 document.querySelectorAll('p').forEach(function (e) { console.log(e); })
 ```
+
+---
+
+## W02D2
+
+
+- **Linking Scripts**
+  - [ ] Introduce directory structure
+  - [ ] Discuss `<script>` tag placement and concerns/issues that developers should be aware of that dictate when to place in the head vs body element.
+        1. End of `<body>` for efficiency
+        1. In the `<head>` if required
+- **String Concatenation**
+  - [ ] Practice with prompt() to get user input and concatenate with a message for output to the document
+    - Go through greet_user example
+- **Intro to Functions**
+  - [ ] Discuss built-in functions (e.g. console.log) already used and how they work
+  - [ ] Basics of function declaration (declared functions vs expressions)
+    - Parameters
+    - Return values
+  - [ ] Basics of calling functions
+    - Arguments
+  - [ ] Scope
+    - Variable access
+  - [ ] Create a function to take care of the concatenation message display done in the previous example
+    - Go through the "Intro to FUNctions" example (w02/d2)
+  - [ ] Have students work through the posted functions exercise for homework
+
+---
+
+## W02D3
+
+- In-Class Assessment [Functions]
+  - Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
+- Quiz
+
+---
+---
+
