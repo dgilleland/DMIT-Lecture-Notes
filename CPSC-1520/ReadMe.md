@@ -67,6 +67,15 @@
 <!-- Demo the effect of a pull and the need for synchronizing by adding a commit to each student's repository  -->
 <!-- JavaScript editing in the Browser + First assignment -->
 
+- **Review/Questions**
+  - [ ] Answer student questions and review from previous class
+- **Markdown Followup**
+  - [ ] Take a screen shot of something and put it in the `~\docs\images\` folder.
+  - [ ] Add an image (screenshot of [QR Code for their name](https://www.the-qrcode-generator.com/)) to a ReadMe file. 
+
+    ![Url](./images/me-on-github.png)
+
+    - DON'T DEMO this => <small>And now for something completely different: <a href="https://ourcodeworld.com/articles/read/271/how-to-decode-a-qr-code-from-an-image-with-javascript">Decode QR Code in JavaScript</a></small>
 - **Basics of JavaScript Execution**
   - [ ] [JavaScript Spec (ES5 vs ES6 vs ES7)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) and [Implementations (Chakra for *Opera* vs Spider Monkey for *FireFox* vs V8 for *Chrome*)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources#Implementations)
     - JavaScript is
@@ -77,8 +86,6 @@
     - Interpreted vs compiled programming languages
       - Compiled programs tend to run faster, but are specific to the OS/hardware it is run on
       - Interpreted languages are a bit slower, but don't have to worry about the OS/hardware, because it runs in a "context" (the browser) that interprets the code
-- **Review/Questions**
-  - [ ] Answer student questions and review from previous class
 - **Basic Console Access**
   - [ ] View the page with **Live-Server**
   - [ ] How to open the developer tools console
