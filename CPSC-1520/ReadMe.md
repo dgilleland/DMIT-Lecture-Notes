@@ -62,6 +62,8 @@
 
 ## W02D1
 
+> ***4* Marks** - There is an in-class assessment today
+
 <!-- Demo the effect of a pull and the need for synchronizing by adding a commit to each student's repository  -->
 <!-- JavaScript editing in the Browser + First assignment -->
 
@@ -77,19 +79,27 @@
       - Interpreted languages are a bit slower, but don't have to worry about the OS/hardware, because it runs in a "context" (the browser) that interprets the code
 - **Review/Questions**
   - [ ] Answer student questions and review from previous class
-- [**Basic Console Access**](#basic-console-access)
+- **Basic Console Access**
+  - [ ] View the page with **Live-Server**
   - [ ] How to open the developer tools console
   - [ ] How to execute simple JS statements in the console
-- **Basic DOM access**
+    - `5 + 7` &ndash; Adds two numbers
+    - `'5' + 7` &ndash; Concatenates two strings
+    - `'5' * 7` &ndash; Did you see that coming?
+    - [The "Why" behind "WatMan"](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db) and [JavaScript WAT](https://blog.kevinchisholm.com/javascript/javascript-wat/)
+- [**Basic DOM access**](#basic-dom-access)
   - [ ] Demonstrate basic DOM selector methods
   - [ ] Demonstrate how to use the innerHTML property of HTMLElement objects
 - **Basic Variable Declaration and Assignment**
   - [ ] Simple variable declarations
   - [ ] Simple types (strings and numbers)
+    - **Data Types**: Number, String, Boolean, Object, Array
+    - The `typeof()` function
+    - For an **element** that you query, you can check the `.tagName` or the `.nodeName`
 - **In-Class Assessment**
   - [ ] Have students work through the console exercise (not for marks) and in-class assessment (for marks), which **must be completed by the end of class** <!--(only release the in-class assessment in class on this day via GitHub Classroom Assignment; DO NOT release through Moodle).-->
 
-#### **Basic Console Access**
+#### **Basic DOM Access**
 
 In the browser, the **document** object reference provides several methods for selecting elements in the
 DOM:
@@ -107,4 +117,18 @@ explored later). Each of these functions returns the matched element (if any) fr
 document.getElementById('copyright-owner');
 document.querySelector('h1');
 document.querySelector('nav.top-nav');
+```
+
+Try it yourself by looking for the element with an ID of `'byline'`. *(**Hint:** `document.getElementById('byline')`)*
+
+Notice that each of the searching functions used so far give us a single element. Here's one that gives us a whole bunch of elements!
+
+```javascript
+document.querySelectorAll('p')
+```
+
+Of course, if you want to go ***wilde***, you could try this:
+
+```javascript
+document.querySelectorAll('p').forEach(function (e) { console.log(e); })
 ```
