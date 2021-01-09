@@ -177,3 +177,108 @@ document.querySelectorAll('p').forEach(function (e) { console.log(e); })
 ---
 ---
 
+## W03D1
+
+- **Introduce basics of event listening**
+  - [ ] Event propagation
+  - [ ] Event default behavior
+  - [ ] Three steps for event listening
+    1. Select the target element
+    1. Create the function (event handler)
+    1. Add the function as an event listener to the element
+  - [ ] Go through events-intro example
+    - E.g. clicking on links (`<a>`)
+    - Go through events-default-behaviour example
+
+---
+## W03D2
+
+- *Any remaining items from previous week*
+- Clicking links (override default behavior) displays full-size image
+  - [ ] Have students work through posted events exercise for homework
+
+---
+## W03D3
+
+In-Class Assessment [Events]
+Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
+
+---
+---
+
+## W04D1
+
+- **If-else statement**
+  - [ ] Discuss the process of identifying conditions and then forming expressions that yield Boolean results
+  - [ ] Review relational and equality operators
+  - [ ] Go through decisions_intro example
+    - Clicking the image toggles the description display
+
+---
+
+## W04D2
+
+- **Operators**
+  - [ ] Discuss the difference between equality and identity operators
+  - [ ] == vs. === and != vs. !==
+  - [ ] Revisit decisions_intro example
+  - [ ] Have students work through posted decisions exercise for homework
+
+---
+
+## W04D3
+
+Work through the resize_thumbnails examples, which cover the following:
+
+1. One event handler for multiple elements
+2. Reducing unnecessary variables and event propagation and reducing unnecessary adding of event listeners
+3. Removing the decision making from the solution and using what is known in the HTML
+4. Converting to an anonymous function (and the why and when to do so)
+<!-- -->
+
+---
+---
+
+## W05D1
+
+- **Form Introduction**
+  - Build a simple login form (text[name=username], password[name=password], input[type=submit]) to cover the basics of form submission (e.g. submit event listener, prevent default behaviour, etc) and how to access and work with form elements (i.e. event.target.elements)
+    - Perform some basic form validation on the fields:
+      - [ ] username must be contain at least one '@' symbol
+      - [ ] password must be between 6 and 10 characters in length
+    - And utilize a class for updating the form fields display when a field is invalid (e.g. add error class that makes the border red)
+
+---
+
+## W05D2
+
+- Have students work through posted forms exercise, and complete as homework if necessary
+
+---
+
+## W05D3
+
+In-Class Assessment [Decisions]
+Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
+
+---
+---
+
+## W06D1
+
+> This week's work is to complete Assignment 1.
+
+---
+
+## W06D2
+
+> This week's work is to complete Assignment 1.
+
+---
+
+## W06D3
+
+> This week's work is to complete Assignment 1.
+
+---
+---
