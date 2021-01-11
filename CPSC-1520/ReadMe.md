@@ -71,6 +71,7 @@
   - [ ] Answer student questions and review from previous class
 - **Markdown Followup**
   - [ ] Take a screen shot of something and put it in the `~\docs\images\` folder.
+    - [Jing](https://www.techsmith.com/jing-tool.html)
   - [ ] Add an image (screenshot of [QR Code for their name](https://www.the-qrcode-generator.com/)) to a ReadMe file. 
 
     ![Url](./images/me-on-github.png)
