@@ -115,7 +115,70 @@ Expand with other concepts, such as
 
 - Demo a .NET 5 (Core) version of "Hello World"
 - Begin OOP Review
+  - [Simplified C# Grammar](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html)
+  - Slideshows
+    - 
 - [Assignment](#homework-w02d1) 
+
+### C# Review
+
+The following are chat questions in MS Teams:
+
+```
+Thumbs-up if your instructor spent more than 1 class on using the Debugger in Visual Studio.
+
+Thumbs-up if you have heard of Properties and Methods in classes.
+
+Thumbs-up if you have done Methods.
+
+Sad face if most of your methods were `static` methods.
+
+What does the `new` keyword do?
+
+List the data types that you know of.
+
+Thumbs-up if you have heard of the `DateTime` data type.
+
+https://cpsc-1517.github.io/logs/
+
+Thumbs-up if you are done noting the link to the LOGs in your workbook.
+
+Thumbs-up if you see the `.git` folder.
+
+What's the largest number of errors you have seen in the **Error List** panel in Visual Studio on your projects.
+
+https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#table-of-contents
+
+Read AND remember.
+
+Thumbs-up if you are taking the Introduction to JavaScript course.
+
+https://programming-0101.github.io/TheBook/Teach/chapter1.html#introduction
+
+List the assignment operators in C#
+
+Arithmetic Operators
+
+List the Relational Operators
+
+What is the opposite of `>`
+
+List the Logical Operators
+
+Which of the logical operators are binary
+
+Thumbs-up if you did file I/O
+
+Thumbs-up if you have it set to .NET 5.0
+
+Did you do a `Product` class in programming fundamentals?
+
+Thumbs-up if you have heard of **JSON**
+
+It's for deductions. I will take marks back if you don't do it.
+
+
+```
 
 ### **Homework-W02D1**
 
