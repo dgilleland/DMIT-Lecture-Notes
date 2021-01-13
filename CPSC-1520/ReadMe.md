@@ -68,11 +68,11 @@
 <!-- JavaScript editing in the Browser + First assignment -->
 
 - **Review/Questions**
-  - [ ] Answer student questions and review from previous class
+  - [x] Answer student questions and review from previous class
 - **Markdown Followup**
-  - [ ] Take a screen shot of something and put it in the `~\docs\images\` folder.
+  - [x] Take a screen shot of something and put it in the `~\docs\images\` folder.
     - [Jing](https://www.techsmith.com/jing-tool.html)
-  - [ ] Add an image (screenshot of [QR Code for their name](https://www.the-qrcode-generator.com/)) to a ReadMe file. 
+  - [x] Add an image (screenshot of [QR Code for their name](https://www.the-qrcode-generator.com/)) to a ReadMe file. 
 
     ![Url](./images/me-on-github.png)
 
@@ -88,24 +88,26 @@
       - Compiled programs tend to run faster, but are specific to the OS/hardware it is run on
       - Interpreted languages are a bit slower, but don't have to worry about the OS/hardware, because it runs in a "context" (the browser) that interprets the code
 - **Basic Console Access**
-  - [ ] View the page with **Live-Server**
-  - [ ] How to open the developer tools console
-  - [ ] How to execute simple JS statements in the console
+  - [x] View the page with **Live-Server**
+  - [x] How to open the developer tools console
+  - [x] How to execute simple JS statements in the console
     - `5 + 7` &ndash; Adds two numbers
     - `'5' + 7` &ndash; Concatenates two strings
     - `'5' * 7` &ndash; Did you see that coming?
     - [The "Why" behind "WatMan"](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db) and [JavaScript WAT](https://blog.kevinchisholm.com/javascript/javascript-wat/)
 - [**Basic DOM access**](#basic-dom-access)
-  - [ ] Demonstrate basic DOM selector methods
-  - [ ] Demonstrate how to use the innerHTML property of HTMLElement objects
+  - [x] Demonstrate basic DOM selector methods
+  - [x] Demonstrate how to use the innerHTML property of HTMLElement objects
 - **Basic Variable Declaration and Assignment**
-  - [ ] Simple variable declarations
+  - [x] Simple variable declarations
   - [ ] Simple types (strings and numbers)
-    - **Data Types**: Number, String, Boolean, Object, Array
-    - The `typeof()` function
-    - For an **element** that you query, you can check the `.tagName` or the `.nodeName`
+    - [ ] **Data Types**: Number, String, Boolean, Object, Array
+    - [x] The `typeof()` function
+    - [ ] For an **element** that you query, you can check the `.tagName` or the `.nodeName`
 - **In-Class Assessment**
-  - [ ] Have students work through the console exercise (not for marks) and in-class assessment (for marks), which **must be completed by the end of class** <!--(only release the in-class assessment in class on this day via GitHub Classroom Assignment; DO NOT release through Moodle).-->
+  - [ ] Have students work through the 
+    - [x] console exercise (not for marks) and 
+    - [ ] in-class assessment (for marks), which **must be completed by the end of class** <!--(only release the in-class assessment in class on this day via GitHub Classroom Assignment; DO NOT release through Moodle).-->
 
 #### **Basic DOM Access**
 
