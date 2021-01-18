@@ -199,6 +199,8 @@ It's for deductions. I will take marks back if you don't do it.
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
 
+- Resume presentations
+
 ---
 ---
 
@@ -206,6 +208,13 @@ It's for deductions. I will take marks back if you don't do it.
 
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
+
+- Walk through samples
+  - CSharp Code Review
+  - Fun and Games
+    - Debug mode
+    - Create the Deck of Cards
+  - Inheritance Demo
 
 ---
 

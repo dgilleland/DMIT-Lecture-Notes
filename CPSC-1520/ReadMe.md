@@ -173,15 +173,15 @@ document.querySelectorAll('p').forEach(function (e) { console.log(e); })
 
 ## W02D3
 
-- In-Class Assessment [Functions]
-  - Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
-- Quiz
-
 ---
 ---
 
 ## W03D1
 
+- Improve the use of our functions by using the **`const`** keyword
+- In-Class Assessment [Functions]
+  - Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
+- Quiz
 - **Introduce basics of event listening**
   - [ ] Event propagation
   - [ ] Event default behavior
