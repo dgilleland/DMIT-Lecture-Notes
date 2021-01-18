@@ -196,8 +196,8 @@ It's for deductions. I will take marks back if you don't do it.
 
 ## W02D3
 
-> - [ ] A03 (T/Th/F)
-> - [ ] A04 (M/W/F)
+> - [x] A03 (T/Th/F)
+> - [x] A04 (M/W/F)
 
 - Resume presentations
 
