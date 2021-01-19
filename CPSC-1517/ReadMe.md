@@ -207,14 +207,16 @@ It's for deductions. I will take marks back if you don't do it.
 ## W03D1
 
 > - [ ] A03 (T/Th/F)
-> - [ ] A04 (M/W/F)
+> - [x] A04 (M/W/F)
 
-- Walk through samples
-  - CSharp Code Review
-  - Fun and Games
+- **Code Demo:** CSharp Code Review quiz app
     - Debug mode
-    - Create the Deck of Cards
-  - Inheritance Demo
+- **Homework:**
+  - Walk through samples
+    - Fun and Games
+      - Create the Deck of Cards
+    - Inheritance Demo
+  - Answer the Practice Quiz questions
 
 ---
 
