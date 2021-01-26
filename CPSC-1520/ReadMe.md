@@ -181,7 +181,16 @@ document.querySelectorAll('p').forEach(function (e) { console.log(e); })
 - Improve the use of our functions by using the **`const`** keyword
 - In-Class Assessment [Functions]
   - Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
+
+---
+## W03D2
+
+- *Any remaining items from previous class*
+- **Functions and Parameters**
+  - Be careful with your parameters
+  - Demonstrate `prompt()` and `confirm()` and `alert()`
 - Quiz
+  - Based on readings from Eloquent JavaScript
 - **Introduce basics of event listening**
   - [ ] Event propagation
   - [ ] Event default behavior
@@ -192,16 +201,26 @@ document.querySelectorAll('p').forEach(function (e) { console.log(e); })
   - [ ] Go through events-intro example
     - E.g. clicking on links (`<a>`)
     - Go through events-default-behaviour example
-
----
-## W03D2
-
-- *Any remaining items from previous week*
 - Clicking links (override default behavior) displays full-size image
   - [ ] Have students work through posted events exercise for homework
 
+#### More about Functions and Parameters
+
+
+#### Events and Event Listeners
+
+
+
+```js
+element.addEventListener('event', handler);
+```
+
 ---
 ## W03D3
+
+```js
+.classList.remove('hidden');
+```
 
 In-Class Assessment [Events]
 Have students work through in-class assessment, which must be completed by the end of class (only release the in-class assessment in class on this day on the projector; DO NOT release through Moodle).
@@ -211,19 +230,52 @@ Have students work through in-class assessment, which must be completed by the e
 
 ## W04D1
 
+- [**JavaScript Events Reference**](https://developer.mozilla.org/en-US/docs/Web/Events)
+  - [Overview](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+- **Handling Mouse Events**
+  - [ ] Review Mouse Events
+  - [ ] [`mouseover`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event)
+  - [ ] [`mouseout`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event)
+  - [ ] [`mouseenter`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event)
+  - [ ] [`mouseleave`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event)
+  - [ ] [`mousemove`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event)
+  - [ ] [`mousedown`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event)
+  - [ ] [`mouseup`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event)
+  - [ ] [`click`](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+  - [ ] [`dblclick`](https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event)
+- **More on Debugging**
+  - [ ] Finding "Compile errors" in the browser's Dev Tools (*Source* tab)
+  - [ ] Finding "Run-time errors" with breakpoints
+  - [ ] **Always** check it in the browser! ***Don't* Assume** you know what your code is doing!
+
+### Discovering Mouse Events
+
+1. Create a simple html page with the following Emmet snippet:
+      - `html:5>header>h1{Discover Mouse Events}^main>p*2>lorem^^footer>div{Bubbles: }>label#evtBubbles^div{Target Element: }>label#evtTag^div{Event Type: }>label#evtType^^script[src=js/main.js]`
+1. In the `<head>` portion of the html page, add link to the css file:
+      - `link[rel=stylesheet][href=./styles/site.css]`
+1. Add some simple styling with the following CSS
+
+   ```css
+
+   ```
+
+1. 
+
+---
+
+## W04D2
+
 - **If-else statement**
   - [ ] Discuss the process of identifying conditions and then forming expressions that yield Boolean results
   - [ ] Review relational and equality operators
   - [ ] Go through decisions_intro example
     - Clicking the image toggles the description display
 
----
-
-## W04D2
-
 - **Operators**
   - [ ] Discuss the difference between equality and identity operators
   - [ ] == vs. === and != vs. !==
+  - [ ] `instanceof`
   - [ ] Revisit decisions_intro example
   - [ ] Have students work through posted decisions exercise for homework
 

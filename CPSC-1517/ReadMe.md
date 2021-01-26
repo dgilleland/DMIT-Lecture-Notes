@@ -206,16 +206,12 @@ It's for deductions. I will take marks back if you don't do it.
 
 ## W03D1
 
-> - [ ] A03 (T/Th/F)
+> - [x] A03 (T/Th/F)
 > - [x] A04 (M/W/F)
 
 - **Code Demo:** CSharp Code Review quiz app
     - Debug mode
 - **Homework:**
-  - Walk through samples
-    - Fun and Games
-      - Create the Deck of Cards
-    - Inheritance Demo
   - Answer the Practice Quiz questions
 
 ---
@@ -225,12 +221,20 @@ It's for deductions. I will take marks back if you don't do it.
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
 
+- Fun and Games
+  - Create the Deck of Cards
+- **Homework**
+  - Walk through other code samples in the debugger
+
 ---
 
 ## W03D3
 
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
+
+- Console app to read database
+
 
 ---
 ---
