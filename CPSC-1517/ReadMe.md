@@ -244,6 +244,13 @@ It's for deductions. I will take marks back if you don't do it.
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
 
+- **Intro to ASP.NET Web Application** - Empty Website w. Razor
+- **Homework**
+  - Create your own ASP.NET Web Application with an `index.cshtml` razor web page.
+  - Copy over an HTML/CSS/JS sample from your Web Fundamentals class and apply it to your ASP.NET Web application.
+
+### 
+
 ---
 
 ## W04D2
@@ -266,12 +273,35 @@ It's for deductions. I will take marks back if you don't do it.
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
 
+- **Razor and HTML Forms**
+  - User Input controls: `<input>` `<select>` `<button>` and `<form>`
+  - **Request/Response**
+    - [ ] `GET` vs `POST`
+    - [ ] Forms collection vs QueryString collection
+  - Gather user input and echo output
+  - `Response.Redirect`
+- **Homework** - Take-Home Assignment
+
+```html
+<p>We're going to begin with a look at a set of HTML 5 Form elements: <code>input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;button&gt;</code>, and <code>&lt;form&gt;</code>.</p>
+
+<h3>Request/Response</h3>
+
+<p>When the browser communicates with the web server over the internet, it does so with a Request/Response interaction. That is, the browser makes a "request" for information from some web resource (typically from a web server), and that web server crafts a "reponse".</p>
+
+<img src="~/Images/Cloud.png" />
+
+```
+
+
 ---
 
 ## W05D2
 
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
+
+
 
 ---
 
@@ -280,6 +310,18 @@ It's for deductions. I will take marks back if you don't do it.
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
 
+- **Empty Web App** (Razor w. Bootstrap)
+  - Razor Layout + Content (Default.cshtml)
+  - NuGet: Bootstrap, FontAwesome, EF6
+- **Database**
+  - Setup database (.bak, .dacpac, .bacpac)
+  - Deleting databases
+  - [WestWind Repo](https://github.com/dgilleland/West-Wind-Wholesale)
+  - [SQL Server Type Mappings](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql-server-data-type-mappings)
+  - `~/Data/` classes
+
+
+
 ---
 ---
 
@@ -287,6 +329,12 @@ It's for deductions. I will take marks back if you don't do it.
 
 > - [ ] A03 (T/Th/F)
 > - [ ] A04 (M/W/F)
+
+- **Razor Forms w. Data**
+  - List all items
+  - Filtered list
+  - Response.Redirect
+  - Query String vs. Post
 
 ---
 

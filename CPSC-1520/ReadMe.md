@@ -247,6 +247,8 @@ Have students work through in-class assessment, which must be completed by the e
   - [ ] Finding "Compile errors" in the browser's Dev Tools (*Source* tab)
   - [ ] Finding "Run-time errors" with breakpoints
   - [ ] **Always** check it in the browser! ***Don't* Assume** you know what your code is doing!
+- **Homework**
+  - [ ] Add a "Sandbox" folder to your "src" folder, and put some web pages from your Web Design Fundamentals class inside.
 
 ### Discovering Mouse Events
 
@@ -278,6 +280,7 @@ Have students work through in-class assessment, which must be completed by the e
   - [ ] `instanceof`
   - [ ] Revisit decisions_intro example
   - [ ] Have students work through posted decisions exercise for homework
+  - [ ] [Operators Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 ---
 
@@ -297,6 +300,7 @@ Work through the resize_thumbnails examples, which cover the following:
 ## W05D1
 
 - **Form Introduction**
+  - [What is an HTMLFormElement?](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement)
   - Build a simple login form (text[name=username], password[name=password], input[type=submit]) to cover the basics of form submission (e.g. submit event listener, prevent default behaviour, etc) and how to access and work with form elements (i.e. event.target.elements)
     - Perform some basic form validation on the fields:
       - [ ] username must be contain at least one '@' symbol
